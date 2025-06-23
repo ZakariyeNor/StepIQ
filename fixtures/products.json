@@ -1,0 +1,1430 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1001",
+            "name": "Puma RS-X",
+            "description": "Bold retro-style sneaker with chunky sole and mixed material design.",
+            "price": 59.99,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "/media/1.jpg",
+            "image": "1.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1002",
+            "name": "Nike React Infinity Run",
+            "description": "Comfortable running shoe with React foam for smooth energy return.",
+            "price": 69.99,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/2.jpg",
+            "image": "2.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1003",
+            "name": "Nike Air Max 270",
+            "description": "Lifestyle sneaker with large Air Max unit for maximum cushioning",
+            "price": 79.99,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "/media/3.jpg",
+            "image": "3.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1004",
+            "name": "Nike Air Force 1",
+            "description": "Classic basketball shoe with leather upper and solid rubber sole.",
+            "price": 89.99,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "/media/4.jpg",
+            "image": "4.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1005",
+            "name": "New Balance 574 Classic Men's Shoe",
+            "description": "Stylish and comfortable New Balance 574 Classic. Ideal for everyday wear with enhanced cushioning and iconic silhouette.",
+            "price": 49.99,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "/media/5.jpg",
+            "image": "5.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1006",
+            "name": "Vanz Old Skool Skate Men's Shoe",
+            "description": "Classic Vanz Old Skool skate shoe with durable canvas upper and waffle outsole. Stylish and rugged.",
+            "price": 59.99,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/6.jpg",
+            "image": "6.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1007",
+            "name": "Saucony Jazz Original Women's Shoe",
+            "description": "Iconic Saucony Jazz Original sneaker with retro vibes, EVA cushioning, and durable suede/nylon construction.",
+            "price": 69.99,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "/media/7.jpg",
+            "image": "7.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1008",
+            "name": "Nike Air Jordan 1 Low Kids Shoe",
+            "description": "Kids’ Nike Air Jordan 1 Low combines classic court style with all-day comfort and bold design.",
+            "price": 79.99,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "/media/8.jpg",
+            "image": "8.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1009",
+            "name": "Adidas Originals Forum Bold Women's Shoe",
+            "description": "Elevated streetwear style with the Adidas Forum Bold. Chunky outsole and premium leather upper.",
+            "price": 89.99,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "/media/9.jpg",
+            "image": "9.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1010",
+            "name": "Puma Cali Star Metallic Women's Shoe",
+            "description": "Modern Puma Cali Star with metallic detailing and classic court-inspired silhouette. Built for style.",
+            "price": 49.99,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/10.jpg",
+            "image": "10.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1011",
+            "name": "Asics Gel-Contend 8 Men's Shoe",
+            "description": "Supportive and cushioned Asics Gel-Contend 8 for road running and gym workouts. Lightweight and breathable.",
+            "price": 59.99,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "/media/11.jpg",
+            "image": "11.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1012",
+            "name": "Nike Running Pegasus 40 Women's Shoe",
+            "description": "Women's Nike Pegasus 40 with soft, responsive foam and breathable mesh upper. Built for distance.",
+            "price": 69.99,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "/media/12.jpg",
+            "image": "12.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1013",
+            "name": "Adidas Originals Gazelle Kids Shoe",
+            "description": "Mini-me classic — Adidas Gazelle for kids with suede upper and rubber sole. Heritage meets comfort.",
+            "price": 79.99,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "/media/13.jpg",
+            "image": "13.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1014",
+            "name": "New Balance Fresh Foam Arishi v4 Women's Shoe",
+            "description": "Versatile performance sneaker from New Balance with Fresh Foam midsole and durable rubber outsole.",
+            "price": 89.99,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/14.jpg",
+            "image": "14.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1015",
+            "name": "Nike Air Jordan 1 Mid SE Men's Shoe",
+            "description": "Jordan 1 Mid SE for men combines heritage design with modern colorways. Elevated street-ready comfort.",
+            "price": 49.99,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "/media/15.jpg",
+            "image": "15.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1016",
+            "name": "Asics GT-2000 11 Men's Shoe",
+            "description": "Asics GT-2000 11 provides balanced support and lightweight cushioning, ideal for road running and all-day comfort.",
+            "price": 59.99,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "/media/16.jpg",
+            "image": "16.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1017",
+            "name": "Puma RS-Fast Tech Women's Shoe",
+            "description": "Bold Puma RS-Fast Tech women's sneaker featuring retro design, mesh upper, and lightweight cushioning.",
+            "price": 69.99,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "/media/17.jpg",
+            "image": "17.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1018",
+            "name": "Adidas Originals Ozweego Kids Shoe",
+            "description": "Adidas Ozweego for kids features futuristic styling and Adiprene cushioning for an ultra-comfy ride.",
+            "price": 79.99,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/18.jpg",
+            "image": "18.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1019",
+            "name": "New Balance 327 Retro Men's Shoe",
+            "description": "Iconic New Balance 327 reimagines vintage runners with oversized N logo and trail-inspired sole.",
+            "price": 89.99,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "/media/19.jpg",
+            "image": "19.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1020",
+            "name": "Nike Air Zoom Pegasus 39 Women's Shoe",
+            "description": "Lightweight and responsive Nike Pegasus 39 ideal for training and daily runs, featuring Zoom Air units.",
+            "price": 49.99,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "/media/20.jpg",
+            "image": "20.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1021",
+            "name": "Saucony Guide 16 Men's Shoe",
+            "description": "The Guide 16 by Saucony blends stability and comfort with a smooth ride and PWRRUN cushioning.",
+            "price": 59.99,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "/media/21.jpg",
+            "image": "21.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1022",
+            "name": "Vanz Classic Slip-On Checkerboard Kids Shoe",
+            "description": "Slip-on comfort and signature Vanz style with a bold checkerboard upper — a kids' essential.",
+            "price": 69.99,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/22.jpg",
+            "image": "22.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1023",
+            "name": "Adidas Originals Superstar Men's Shoe",
+            "description": "Timeless Adidas Superstar with signature shell toe, leather upper, and street-ready style.",
+            "price": 79.99,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "/media/23.jpg",
+            "image": "23.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1024",
+            "name": "Nike Air Jordan 6 Retro Women's Shoe",
+            "description": "Bold and iconic Nike Air Jordan 6 Retro featuring visible Air-Sole unit and molded heel tab.",
+            "price": 89.99,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "/media/24.jpg",
+            "image": "24.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1025",
+            "name": "Asics Novablast 3 Women's Shoe",
+            "description": "Energy-packed Asics Novablast 3 with trampoline effect sole and FF BLAST™ Plus cushioning.",
+            "price": 49.99,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "/media/25.jpg",
+            "image": "25.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1026",
+            "name": "New Balance Fresh Foam Roav Kids Shoe",
+            "description": "New Balance Fresh Foam Roav for kids — perfect for school and play with soft cushioning.",
+            "price": 59.99,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/26.jpg",
+            "image": "26.jpg"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1027",
+            "name": "Puma Future Rider Play On Men's Shoe",
+            "description": "Retro Puma Future Rider with sleek nylon upper, bold colors, and lightweight feel.",
+            "price": 69.99,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "/media/27.jpg",
+            "image": "27.jpg"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1028",
+            "name": "Vanz Ultrarange EXO Women's Shoe",
+            "description": "Women's Vanz Ultrarange EXO built for adventure with UltraCush foam midsole and breathable upper.",
+            "price": 79.99,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "/media/28.jpg",
+            "image": "28.jpg"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1029",
+            "name": "Nike Running React Escape Run 2 Women's Shoe",
+            "description": "Made for city runners — Nike React Escape Run 2 with responsive foam and secure fit.",
+            "price": 89.99,
+            "category": 2,
+            "rating": 4.0,
+            "image_url": "/media/29.jpg",
+            "image": "29.jpg"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1030",
+            "name": "Saucony Shadow 6000 Vintage Men's Shoe",
+            "description": "Retro-inspired Saucony Shadow 6000 with mesh and suede upper and plush EVA cushioning.",
+            "price": 49.99,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/30.jpg",
+            "image": "30.jpg"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1031",
+            "name": "Asics Show Men Shoe",
+            "description": "Men's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 134.32,
+            "category": 2,
+            "rating": 4.4,
+            "image_url": "/media/31.jpg",
+            "image": "31.jpg"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1032",
+            "name": "Saucony View Kids Shoe",
+            "description": "Kids's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 149.75,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "/media/32.jpg",
+            "image": "32.jpg"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1033",
+            "name": "Nike Air Jordan See Men Shoe",
+            "description": "Men's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 65.6,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "/media/33.jpg",
+            "image": "33.jpg"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1034",
+            "name": "Nike Running Huge Women Shoe",
+            "description": "Women's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 58.29,
+            "category": 2,
+            "rating": 4.3,
+            "image_url": "/media/34.jpg",
+            "image": "34.jpg"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1035",
+            "name": "Adidas Originals Like Kids Shoe",
+            "description": "Kids's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 53.73,
+            "category": 2,
+            "rating": 4.1,
+            "image_url": "/media/35.jpg",
+            "image": "35.jpg"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1036",
+            "name": "Puma There Men Shoe",
+            "description": "Men's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 68.89,
+            "category": 1,
+            "rating": 4.1,
+            "image_url": "/media/36.jpg",
+            "image": "36.jpg"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1037",
+            "name": "New Balance Computer Women Shoe",
+            "description": "Women's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 56.74,
+            "category": 3,
+            "rating": 3.5,
+            "image_url": "/media/37.jpg",
+            "image": "37.jpg"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1038",
+            "name": "Vanz Machine Women Shoe",
+            "description": "Women's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 139.94,
+            "category": 1,
+            "rating": 3.5,
+            "image_url": "/media/38.jpg",
+            "image": "38.jpg"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1039",
+            "name": "Asics Draw Women Shoe",
+            "description": "Women's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 104.4,
+            "category": 1,
+            "rating": 4.2,
+            "image_url": "/media/39.jpg",
+            "image": "39.jpg"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1040",
+            "name": "Saucony Nature Women Shoe",
+            "description": "Women's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 53.86,
+            "category": 4,
+            "rating": 4.4,
+            "image_url": "/media/40.jpg",
+            "image": "40.jpg"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1041",
+            "name": "Nike Air Jordan Body Kids Shoe",
+            "description": "Kids's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 146.43,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "/media/41.jpg",
+            "image": "41.jpg"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1042",
+            "name": "Nike Running Process Men Shoe",
+            "description": "Men's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 129.82,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "/media/42.jpg",
+            "image": "42.jpg"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1043",
+            "name": "Adidas Originals Writer Women Shoe",
+            "description": "Women's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 100.3,
+            "category": 2,
+            "rating": 4.3,
+            "image_url": "/media/43.jpg",
+            "image": "43.jpg"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1044",
+            "name": "Puma Or Men Shoe",
+            "description": "Men's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 111.72,
+            "category": 4,
+            "rating": 3.7,
+            "image_url": "/media/44.jpg",
+            "image": "44.jpg"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1045",
+            "name": "New Balance Friend Kids Shoe",
+            "description": "Kids's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 116.58,
+            "category": 2,
+            "rating": 3.5,
+            "image_url": "/media/45.jpg",
+            "image": "45.jpg"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1046",
+            "name": "Vanz Must Kids Shoe",
+            "description": "Kids's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 81.12,
+            "category": 1,
+            "rating": 3.7,
+            "image_url": "/media/46.jpg",
+            "image": "46.jpg"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1047",
+            "name": "Asics Toward Men Shoe",
+            "description": "Men's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 81.98,
+            "category": 3,
+            "rating": 3.7,
+            "image_url": "/media/47.jpg",
+            "image": "47.jpg"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1048",
+            "name": "Saucony Man Kids Shoe",
+            "description": "Kids's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 80.49,
+            "category": 2,
+            "rating": 4.4,
+            "image_url": "/media/48.jpg",
+            "image": "48.jpg"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1049",
+            "name": "Nike Air Jordan Red Women Shoe",
+            "description": "Women's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 91.94,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "/media/49.jpg",
+            "image": "49.jpg"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1050",
+            "name": "Nike Running Meeting Men Shoe",
+            "description": "Men's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 88.56,
+            "category": 1,
+            "rating": 3.8,
+            "image_url": "/media/50.jpg",
+            "image": "50.jpg"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1051",
+            "name": "Adidas Originals Subject Kids Shoe",
+            "description": "Kids's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 56.44,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "/media/51.jpg",
+            "image": "51.jpg"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1052",
+            "name": "Puma Book Women Shoe",
+            "description": "Women's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 142.76,
+            "category": 1,
+            "rating": 4.0,
+            "image_url": "/media/52.jpg",
+            "image": "52.jpg"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1053",
+            "name": "New Balance Among Kids Shoe",
+            "description": "Kids's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 134.02,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "/media/53.jpg",
+            "image": "53.jpg"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1054",
+            "name": "Vanz Teach Women Shoe",
+            "description": "Women's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 125.01,
+            "category": 1,
+            "rating": 3.7,
+            "image_url": "/media/54.jpg",
+            "image": "54.jpg"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1055",
+            "name": "Asics Another Kids Shoe",
+            "description": "Kids's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 70.18,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "/media/55.jpg",
+            "image": "55.jpg"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1056",
+            "name": "Saucony Firm Women Shoe",
+            "description": "Women's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 72.38,
+            "category": 3,
+            "rating": 3.6,
+            "image_url": "/media/56.jpg",
+            "image": "56.jpg"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1057",
+            "name": "Nike Air Jordan With Kids Shoe",
+            "description": "Kids's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 101.79,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "/media/57.jpg",
+            "image": "57.jpg"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1058",
+            "name": "Nike Running Spring Kids Shoe",
+            "description": "Kids's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 56.23,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "/media/58.jpg",
+            "image": "58.jpg"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1059",
+            "name": "Adidas Originals Floor Men Shoe",
+            "description": "Men's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 75.89,
+            "category": 3,
+            "rating": 3.7,
+            "image_url": "/media/59.jpg",
+            "image": "59.jpg"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1060",
+            "name": "Puma Amount Kids Shoe",
+            "description": "Kids's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 136.13,
+            "category": 2,
+            "rating": 3.5,
+            "image_url": "/media/60.jpg",
+            "image": "60.jpg"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1061",
+            "name": "New Balance According Men Shoe",
+            "description": "Men's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 84.32,
+            "category": 1,
+            "rating": 4.4,
+            "image_url": "/media/61.jpg",
+            "image": "61.jpg"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1062",
+            "name": "Vanz Describe Women Shoe",
+            "description": "Women's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 140.11,
+            "category": 4,
+            "rating": 3.5,
+            "image_url": "/media/62.jpg",
+            "image": "62.jpg"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1063",
+            "name": "Asics More Men Shoe",
+            "description": "Men's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 135.31,
+            "category": 2,
+            "rating": 4.7,
+            "image_url": "/media/63.jpg",
+            "image": "63.jpg"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1064",
+            "name": "Saucony Improve Kids Shoe",
+            "description": "Kids's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 98.08,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "/media/64.jpg",
+            "image": "64.jpg"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1065",
+            "name": "Nike Air Jordan Walk Kids Shoe",
+            "description": "Kids's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 85.59,
+            "category": 3,
+            "rating": 4.5,
+            "image_url": "/media/65.jpg",
+            "image": "65.jpg"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1066",
+            "name": "Nike Running Recent Women Shoe",
+            "description": "Women's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 80.99,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "/media/66.jpg",
+            "image": "66.jpg"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1067",
+            "name": "Adidas Originals Ability Kids Shoe",
+            "description": "Kids's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 107.88,
+            "category": 1,
+            "rating": 4.7,
+            "image_url": "/media/67.jpg",
+            "image": "67.jpg"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1068",
+            "name": "Puma Strong Kids Shoe",
+            "description": "Kids's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 132.54,
+            "category": 3,
+            "rating": 4.7,
+            "image_url": "/media/68.jpg",
+            "image": "68.jpg"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1069",
+            "name": "New Balance Discussion Men Shoe",
+            "description": "Men's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 80.9,
+            "category": 4,
+            "rating": 3.8,
+            "image_url": "/media/69.jpg",
+            "image": "69.jpg"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1070",
+            "name": "Vanz Any Women Shoe",
+            "description": "Women's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 85.63,
+            "category": 2,
+            "rating": 4.5,
+            "image_url": "/media/70.jpg",
+            "image": "70.jpg"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1071",
+            "name": "Asics Eat Women Shoe",
+            "description": "Women's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 82.89,
+            "category": 1,
+            "rating": 3.7,
+            "image_url": "/media/71.jpg",
+            "image": "71.jpg"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1072",
+            "name": "Saucony Make Women Shoe",
+            "description": "Women's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 120.31,
+            "category": 4,
+            "rating": 4.7,
+            "image_url": "/media/72.jpg",
+            "image": "72.jpg"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1073",
+            "name": "Nike Air Jordan Out Men Shoe",
+            "description": "Men's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 96.3,
+            "category": 1,
+            "rating": 3.6,
+            "image_url": "/media/73.jpg",
+            "image": "73.jpg"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1074",
+            "name": "Nike Running Popular Kids Shoe",
+            "description": "Kids's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 138.06,
+            "category": 1,
+            "rating": 4.1,
+            "image_url": "/media/74.jpg",
+            "image": "74.jpg"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1075",
+            "name": "Adidas Originals Ready Women Shoe",
+            "description": "Women's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 88.78,
+            "category": 1,
+            "rating": 4.4,
+            "image_url": "/media/75.jpg",
+            "image": "75.jpg"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1076",
+            "name": "Puma Detail Women Shoe",
+            "description": "Women's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 98.85,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "/media/76.jpg",
+            "image": "76.jpg"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1077",
+            "name": "New Balance Your Women Shoe",
+            "description": "Women's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 113.11,
+            "category": 3,
+            "rating": 4.4,
+            "image_url": "/media/77.jpg",
+            "image": "77.jpg"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1078",
+            "name": "Vanz Major Kids Shoe",
+            "description": "Kids's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 111.08,
+            "category": 1,
+            "rating": 4.1,
+            "image_url": "/media/78.jpg",
+            "image": "78.jpg"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1079",
+            "name": "Asics Executive Women Shoe",
+            "description": "Women's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 137.21,
+            "category": 3,
+            "rating": 3.6,
+            "image_url": "/media/79.jpg",
+            "image": "79.jpg"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1080",
+            "name": "Saucony If Women Shoe",
+            "description": "Women's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 54.88,
+            "category": 4,
+            "rating": 4.6,
+            "image_url": "/media/80.jpg",
+            "image": "80.jpg"
+        }
+    },
+    {
+        "pk": 81,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1081",
+            "name": "Nike Air Jordan Which Kids Shoe",
+            "description": "Kids's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 70.79,
+            "category": 4,
+            "rating": 3.6,
+            "image_url": "/media/81.jpg",
+            "image": "81.jpg"
+        }
+    },
+    {
+        "pk": 82,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1082",
+            "name": "Nike Running Executive Men Shoe",
+            "description": "Men's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 69.39,
+            "category": 2,
+            "rating": 5.0,
+            "image_url": "/media/82.jpg",
+            "image": "82.jpg"
+        }
+    },
+    {
+        "pk": 83,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1083",
+            "name": "Adidas Originals Discussion Kids Shoe",
+            "description": "Kids's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 117.29,
+            "category": 4,
+            "rating": 4.8,
+            "image_url": "/media/83.jpg",
+            "image": "83.jpg"
+        }
+    },
+    {
+        "pk": 84,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1084",
+            "name": "Puma Magazine Kids Shoe",
+            "description": "Kids's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 109.39,
+            "category": 2,
+            "rating": 4.9,
+            "image_url": "/media/84.jpg",
+            "image": "84.jpg"
+        }
+    },
+    {
+        "pk": 85,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1085",
+            "name": "New Balance Look Women Shoe",
+            "description": "Women's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 144.73,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "/media/85.jpg",
+            "image": "85.jpg"
+        }
+    },
+    {
+        "pk": 86,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1086",
+            "name": "Vanz Wait Women Shoe",
+            "description": "Women's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 70.11,
+            "category": 4,
+            "rating": 4.9,
+            "image_url": "/media/86.jpg",
+            "image": "86.jpg"
+        }
+    },
+    {
+        "pk": 87,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1087",
+            "name": "Asics Result Men Shoe",
+            "description": "Men's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 120.7,
+            "category": 4,
+            "rating": 5.0,
+            "image_url": "/media/87.jpg",
+            "image": "87.jpg"
+        }
+    },
+    {
+        "pk": 88,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1088",
+            "name": "Saucony Type Kids Shoe",
+            "description": "Kids's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 122.33,
+            "category": 3,
+            "rating": 5.0,
+            "image_url": "/media/88.jpg",
+            "image": "88.jpg"
+        }
+    },
+    {
+        "pk": 89,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1089",
+            "name": "Nike Air Jordan Century Kids Shoe",
+            "description": "Kids's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 109.53,
+            "category": 2,
+            "rating": 4.8,
+            "image_url": "/media/89.jpg",
+            "image": "89.jpg"
+        }
+    },
+    {
+        "pk": 90,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1090",
+            "name": "Nike Running Produce Men Shoe",
+            "description": "Men's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 114.98,
+            "category": 1,
+            "rating": 4.2,
+            "image_url": "/media/90.jpg",
+            "image": "90.jpg"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1091",
+            "name": "Adidas Originals Present Women Shoe",
+            "description": "Women's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 114.14,
+            "category": 4,
+            "rating": 3.9,
+            "image_url": "/media/91.jpg",
+            "image": "91.jpg"
+        }
+    },
+    {
+        "pk": 92,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1092",
+            "name": "Puma Start Kids Shoe",
+            "description": "Kids's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 64.52,
+            "category": 3,
+            "rating": 4.8,
+            "image_url": "/media/92.jpg",
+            "image": "92.jpg"
+        }
+    },
+    {
+        "pk": 93,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1093",
+            "name": "New Balance Partner Men Shoe",
+            "description": "Men's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 70.75,
+            "category": 3,
+            "rating": 4.2,
+            "image_url": "/media/93.jpg",
+            "image": "93.jpg"
+        }
+    },
+    {
+        "pk": 94,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1094",
+            "name": "Vanz Stop Kids Shoe",
+            "description": "Kids's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 56.91,
+            "category": 1,
+            "rating": 4.9,
+            "image_url": "/media/94.jpg",
+            "image": "94.jpg"
+        }
+    },
+    {
+        "pk": 95,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1095",
+            "name": "Asics Cultural Men Shoe",
+            "description": "Men's Asics shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 127.28,
+            "category": 4,
+            "rating": 4.5,
+            "image_url": "/media/95.jpg",
+            "image": "95.jpg"
+        }
+    },
+    {
+        "pk": 96,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1096",
+            "name": "Saucony Our Kids Shoe",
+            "description": "Kids's Saucony shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 65.2,
+            "category": 2,
+            "rating": 4.2,
+            "image_url": "/media/96.jpg",
+            "image": "96.jpg"
+        }
+    },
+    {
+        "pk": 97,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1097",
+            "name": "Nike Air Jordan Simply Men Shoe",
+            "description": "Men's Nike Air Jordan shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 61.35,
+            "category": 1,
+            "rating": 4.3,
+            "image_url": "/media/97.jpg",
+            "image": "97.jpg"
+        }
+    },
+    {
+        "pk": 98,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1098",
+            "name": "Nike Running Lead Kids Shoe",
+            "description": "Kids's Nike Running shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 148.82,
+            "category": 2,
+            "rating": 3.9,
+            "image_url": "/media/98.jpg",
+            "image": "101.jpg"
+        }
+    },
+    {
+        "pk": 99,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1099",
+            "name": "Adidas Originals Structure Men Shoe",
+            "description": "Men's Adidas Originals shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 114.47,
+            "category": 3,
+            "rating": 3.6,
+            "image_url": "/media/99.jpg",
+            "image": "99.jpg"
+        }
+    },
+    {
+        "pk": 100,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1100",
+            "name": "Puma Talk Men Shoe",
+            "description": "Men's Puma shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 73.28,
+            "category": 1,
+            "rating": 3.9,
+            "image_url": "/media/100.jpg",
+            "image": "102.jpg"
+        }
+    },
+    {
+        "pk": 101,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1101",
+            "name": "New Balance Summer Men Shoe",
+            "description": "Men's New Balance shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 102.26,
+            "category": 3,
+            "rating": 3.8,
+            "image_url": "/media/101.jpg",
+            "image": "100.jpg"
+        }
+    },
+    {
+        "pk": 102,
+        "model": "products.product",
+        "fields": {
+            "sku": "shoe_sku_1102",
+            "name": "Vanz Sport Women Shoe",
+            "description": "Women's Vanz shoe featuring a stylish design with durable materials, comfortable cushioning, and perfect fit for everyday wear.",
+            "price": 82.06,
+            "category": 3,
+            "rating": 4.2,
+            "image_url": "/media/102.jpg",
+            "image": "98.jpg"
+        }
+    }
+]
