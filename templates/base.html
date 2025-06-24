@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 
@@ -29,6 +30,9 @@
   <!-- Google fonts link -->
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
+  <!-- Custom css -->
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
   {% endblock %}
 
   {% block extra_css %}
@@ -44,12 +48,13 @@
 
     <!-- Fontawesome link -->
     <script src="https://kit.fontawesome.com/44dbf25b5c.js" crossorigin="anonymous"></script>
+
   {% endblock %}
 
   {% block extra_js %}
   {% endblock %}
 
-  <title>Boutique Ado {% block extra_title %}{% endblock %}</title>
+  <title>StepIQ {% block extra_title %}{% endblock %}</title>
 </head>
 
 <body>
@@ -57,8 +62,45 @@
   {% block page_header %}
   {% endblock %}
 
+    <header>
+        <div class="text-uppercase">
+            <h1>
+                <a href="{% url 'home' %}">
+                    <i class="fa-solid fa-layer-group mt-3 pr-5 logo-icon"></i>
+                </a>
+                Duac
+            </h1>
+        </div>
+        <nav>
+            <ul class="nav justify-content-end">
+                <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link" href="{% url 'home' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link icon-box"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link icon-box"><i class="fa-regular fa-user"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link icon-box"><i class="fa-solid fa-bag-shopping"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
   {% block content %}
   {% endblock %}
 
 </body>
+
 </html>

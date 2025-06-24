@@ -1,0 +1,189 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-input: #f2f2f2;
+  --color-placeholder: #888888;
+  --color-accent: #ff4c60;
+  --color-auth: #0070f3;
+  --color-border: #e0e0e0;
+
+  --font-heading: 'Bebas Neue', sans-serif;
+  --font-ui: 'Barlow', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+/* ===============================
+   🧱 Base Typography & Elements
+   =============================== */
+
+/* Reset margin and font smoothing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body base styling */
+body {
+  background-color: var(--color-bg);       /* #ffffff */
+  color: var(--color-text);               /* #000000 */
+  font-family: var(--font-body);          /* Open Sans */
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);       /* Bebas Neue */
+  color: var(--color-text);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+.logo-icon {
+  color: #ff6b6b; /* Light red */
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+/* Paragraphs */
+p {
+  font-family: var(--font-body);          /* Open Sans */
+  font-size: 1rem;
+  margin-bottom: 1em;
+  color: var(--color-text);
+}
+
+/* Anchor links */
+a {
+  color: var(--color-primary, #0070f3);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-family: var(--font-ui);            /* Barlow */
+}
+
+a:hover {
+  color: var(--color-accent);             /* #ff4c60 */
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.25rem;
+  margin-bottom: 1em;
+  font-family: var(--font-body);
+}
+
+ul li, ol li {
+  margin-bottom: 0.5em;
+  line-height: 1.6;
+}
+
+/* ============================================
+   Navigation Link Styles
+   ============================================ */
+
+.nav-link,
+nav .nav-link {
+  color: #555555 !important;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #5f5d5d;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease, font-weight 0.2s ease, transform 0.2s ease;
+}
+
+.nav-link:hover,
+nav .nav-link:hover {
+  color: var(--color-accent) !important;
+}
+
+.nav-link.active:active {
+  color: #000000;
+  font-weight: 700;
+  transform: scale(1.1);
+}
+
+.nav-link:focus {
+  color: var(--color-accent);
+  font-weight: 700;
+  outline: none;
+}
+
+.icon-box {
+  background-color: #f2f2f2; /* light gray */
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0 0.25rem;
+}
+
+/*  */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  position: relative;
+}
+
+
+/* Unstyled lists (e.g., for navigation) */
+ul.unstyled,
+ol.unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+input, textarea, select {
+  background-color: var(--color-input);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  padding: 0.75rem 1rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  border-radius: 4px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-placeholder);
+  font-style: italic;
+}
+
+/* Main action: Shop, Add to Cart, Pay */
+.button-accent {
+  background-color: var(--color-accent);
+  color: #fff;
+  border: none;
+  font-family: var(--font-ui);
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+/* Auth actions: Login, Logout, Reset */
+.button-auth {
+  background-color: var(--color-auth);
+  color: #fff;
+  border: none;
+  font-family: var(--font-ui);
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
