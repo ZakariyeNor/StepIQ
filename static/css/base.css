@@ -139,6 +139,22 @@ header {
   position: relative;
 }
 
+/* ======================================
+   Sub-Nav link styles
+   ======================================
+*/
+
+.dropdown-item {          /* light gray default */
+  color: var(--color-text);           /* black text */
+  transition: background 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #8a8383;; /* your accent color on hover */
+  color: #fff;
+  font-weight: 600;
+}
+
 
 /* Unstyled lists (e.g., for navigation) */
 ul.unstyled,
