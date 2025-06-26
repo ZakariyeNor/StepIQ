@@ -56,21 +56,40 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+/* Headings - Responsive */
+h1 {
+  font-size: clamp(2rem, 5vw + 1rem, 2.2rem);
+}
+h2 {
+  font-size: clamp(1.75rem, 4vw + 0.5rem, 3rem);
+}
+h3 {
+  font-size: clamp(1.5rem, 3.5vw + 0.25rem, 2.5rem);
+}
+h4 {
+  font-size: clamp(1.25rem, 3vw, 2rem);
+}
+h5 {
+  font-size: clamp(1.125rem, 2.5vw, 1.75rem);
+}
+h6 {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+/* Paragraphs */
+p {
+  font-size: clamp(0.95rem, 1.5vw, 1.125rem);
+}
+
+
 .logo-icon {
   color: #6d8b84; /* Light red */
 }
 
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.5rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1rem; }
 
 /* Paragraphs */
 p {
-  font-family: var(--font-body);          /* Open Sans */
-  font-size: 1rem;
+  font-family: var(--font-body);
   margin-bottom: 1em;
   color: var(--color-text);
 }
@@ -350,6 +369,11 @@ footer > div:nth-child(2) ul a {
 @media (min-width: 992px) {
   footer > div:first-child ul {
     gap: 7rem; /* medium screens larger gap */
+  }
+
+  header {
+    justify-content: space-between;
+    padding: 5px 3px;
   }
 }
 
