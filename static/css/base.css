@@ -1,3 +1,4 @@
+/* Global color */
 :root {
   --color-bg: #ffffff;
   --color-text: #000000;
@@ -17,7 +18,9 @@
    =============================== */
 
 /* Reset margin and font smoothing */
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,13 +29,14 @@
 html, body {
   height: 100%;           /* Full height */
   margin: 0;
+  overflow-x: hidden;     /* Prevent horizontal scroll */
 }
 
 /* Body base styling */
 body {
   background-color: var(--color-bg);       /* #ffffff */
-  color: var(--color-text);               /* #000000 */
-  font-family: var(--font-body);          /* Open Sans */
+  color: var(--color-text);                 /* #000000 */
+  font-family: var(--font-body);            /* Open Sans */
   font-size: 1rem;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -42,10 +46,10 @@ body {
   min-height: 100vh;
 }
 
+/* Flex-grow main for sticky footer */
 main {
   flex: 1 0 auto;         /* Grow and fill available space */
 }
-
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -78,18 +82,8 @@ h6 {
 
 /* Paragraphs */
 p {
-  font-size: clamp(0.95rem, 1.5vw, 1.125rem);
-}
-
-
-.logo-icon {
-  color: #6d8b84; /* Light red */
-}
-
-
-/* Paragraphs */
-p {
   font-family: var(--font-body);
+  font-size: clamp(0.95rem, 1.5vw, 1.125rem);
   margin-bottom: 1em;
   color: var(--color-text);
 }
@@ -116,11 +110,33 @@ ul, ol {
 ul li, ol li {
   margin-bottom: 0.5em;
   line-height: 1.6;
+  list-style: none;
 }
 
-/* ============================================
-   Navigation Link Styles
-   ============================================ */
+.mobile-nav {
+  display: none;
+  background-color: white;
+  position: fixed;
+  top: 6.9rem; /* adjust based on header */
+  left: 0;
+  width: 60%;
+  max-width: 300px;
+  height: fit-content;
+  padding: 2rem;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.mobile-nav.open {
+  display: block;
+  transform: translateX(0);
+}
+
+
+
+/* Navigation Link Styles */
 
 .nav-link,
 nav .nav-link {
@@ -159,43 +175,63 @@ nav .nav-link:hover {
   margin: 0 0.25rem;
 }
 
-/*  */
+/* Header */
+
 header {
+  width: 100%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+  /* background-color if any */
+}
+
+/* Container for layout only */
+header .container {
   display: flex;
+  flex-wrap: wrap;           /* Allow wrapping */
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-  z-index: 1;
-  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+  background: transparent;  /* no background or shadow here */
 }
 
-/* ======================================
-   Sub-Nav link styles
-   ======================================
-*/
 
-.dropdown-item {          /* light gray default */
-  color: var(--color-text);           /* black text */
+.logo-icon { 
+  color: #6d8b84;
+}
+
+.fa-bars, .fa-navicon {
+    --fa: "\f0c9";
+    font-size: 32px;
+}
+
+/* Container for centering content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Dropdown item styles */
+.dropdown-item {
+  color: var(--color-text);
   transition: background 0.2s ease;
 }
 
 .dropdown-item:hover {
-  background-color: #8a8383;; /* your accent color on hover */
+  background-color: #8a8383; /* accent hover */
   color: #fff;
   font-weight: 600;
 }
 
 
-/* Unstyled lists (e.g., for navigation) */
-ul.unstyled,
-ol.unstyled {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-
+/* Inputs */
 input, textarea, select {
   background-color: var(--color-input);
   color: var(--color-text);
@@ -204,6 +240,8 @@ input, textarea, select {
   font-family: var(--font-body);
   font-size: 1rem;
   border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 input::placeholder,
@@ -212,7 +250,7 @@ textarea::placeholder {
   font-style: italic;
 }
 
-/* Main action: Shop, Add to Cart, Pay */
+/* Buttons */
 .button-accent {
   background-color: var(--color-accent);
   color: #fff;
@@ -221,9 +259,9 @@ textarea::placeholder {
   padding: 0.6rem 1.2rem;
   border-radius: 4px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-/* Auth actions: Login, Logout, Reset */
 .button-auth {
   background-color: var(--color-auth);
   color: #fff;
@@ -232,12 +270,10 @@ textarea::placeholder {
   padding: 0.6rem 1.2rem;
   border-radius: 4px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-/* ============================
-   Footer Styles
-   ============================ */
-
+/* Footer */
 footer {
   box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
@@ -247,9 +283,20 @@ footer {
   text-align: center;
   user-select: none;
   flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-/* Override all anchor links inside footer */
+/* Footer container */
+footer > .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Footer links */
 footer a {
   color: #555555;
   text-decoration: none;
@@ -261,10 +308,10 @@ footer a:focus,
 footer a:active {
   color: #ff4c60;
   font-weight: 700;
-  outline: none; /* Removes default focus outline */
+  outline: none;
 }
 
-/* Top list: About, Contact, Privacy Policy, Returns, FAQs in one line centered */
+/* Footer top list */
 footer > div:first-child ul {
   list-style: none;
   display: flex;
@@ -274,11 +321,13 @@ footer > div:first-child ul {
   margin: 0 0 1.5rem 0;
   font-weight: 500;
   color: #555555;
+  flex-wrap: wrap; /* allow wrap on small screens */
 }
 
 footer > div:first-child ul li {
   cursor: pointer;
   transition: color 0.3s ease, font-weight 0.3s ease;
+  white-space: nowrap;
 }
 
 footer > div:first-child ul li:hover {
@@ -290,7 +339,7 @@ footer > div:first-child ul li:active {
   font-weight: 700;
 }
 
-/* Social links below centered */
+/* Social links */
 .social-links ul {
   list-style: none;
   display: flex;
@@ -298,6 +347,7 @@ footer > div:first-child ul li:active {
   gap: 2.5rem;
   padding: 0;
   margin: 0 0 1.5rem 0;
+  flex-wrap: wrap; /* allow wrap */
 }
 
 .social-links ul li a {
@@ -314,7 +364,6 @@ footer > div:first-child ul li:active {
   transition: color 0.3s ease;
 }
 
-/* Hover, focus, active states for social links */
 .social-links ul li a:hover,
 .social-links ul li a:focus,
 .social-links ul li a:active {
@@ -328,57 +377,53 @@ footer > div:first-child ul li:active {
   color: #ff4c60;
 }
 
-/* Bottom text, e.g. copyright */
+/* Footer bottom text */
 footer > div:last-child p {
   font-size: 0.875rem;
   color: #555555;
   margin-top: 1rem;
 }
 
-footer > div:first-child ul {
-  display: flex;
-  justify-content: center;
-  gap: 8rem; /* default smaller gap for mobile */
-  padding: 0;
-  margin-bottom: 1.5rem;
-  color: #555555;
-}
+/* Responsive header tweaks */
+@media (max-width: 768px) {
+  
 
-footer > div:nth-child(2) ul {
-  gap: 5rem;
-  padding: 0;
-  margin-bottom: 1.5rem;
-}
+  /* Reduce footer link gaps */
+  footer > div:first-child ul {
+    gap: 1rem;
+    justify-content: center;
+  }
 
-footer > div:nth-child(2) ul a {
-  color: #8d8d8d;
+  .social-links ul {
+    gap: 1.5rem;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 576px) {
   footer > div:first-child ul {
-    gap: 4rem; /* medium screens larger gap */
+    gap: 4rem; /* medium screens */
   }
 }
 
 @media (min-width: 768px) {
   footer > div:first-child ul {
-    gap: 4rem; /* medium screens larger gap */
+    gap: 4rem;
+  }
+  .mobile-nav {
+    display: none !important;
   }
 }
 
 @media (min-width: 992px) {
   footer > div:first-child ul {
-    gap: 7rem; /* medium screens larger gap */
+    gap: 7rem;
   }
 
-  header {
-    justify-content: space-between;
-    padding: 5px 3px;
-  }
 }
 
 @media (min-width: 1200px) {
   footer > div:first-child ul {
-    gap: 10rem; /* large screens largest gap */
+    gap: 10rem;
   }
 }

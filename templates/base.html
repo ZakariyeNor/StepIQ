@@ -71,157 +71,178 @@
 
     <!-- Header with logo and navigation -->
     <header>
-        <!-- <i class="fa-solid fa-bars"></i> -->
+        <div class="container">
+            <!-- Mobile menu icon -->
+            <div class="menu-icon d-block d-md-none">
+                <i class="fa-solid fa-bars"></i>
+            </div>
 
-        <div class="text-uppercase">
-            <h1>
+            <!-- Page logo and logo name -->
+            <div class="text-uppercase">
                 <a href="{% url 'home' %}">
-                    <i class="fa-solid fa-layer-group mt-3 pr-5 logo-icon"></i>
+                    <h1>
+                        <i class="fa-solid fa-layer-group mt-3 pr-5 logo-icon"></i>
+                        Duac
+                    </h1>
                 </a>
-                Duac
-            </h1>
-        </div>
-        <!-- Desktop navigation -->
-        <nav class="d-none d-md-block">
-            <!-- Navigation list -->
-            <ul class="nav justify-content-end">
-                <li class="nav-item d-block d-md-none">
-                    <a class="nav-link" href="{% url 'home' %}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Product Management</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link icon-box"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link icon-box dropdown-toggle" href="#" id="profileDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-regular fa-user"></i>
-                    </a>
-                    <!-- Profile dropdown menu -->
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
-                        <li><a class="dropdown-item" href="#">My Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Logout</a></li>
-                        <li><a class="dropdown-item" href="#">Register</a></li>
-                        <li><a class="dropdown-item" href="#">Login</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link icon-box"><i class="fa-solid fa-bag-shopping"></i></a>
-                </li>
-            </ul>
-        </nav>
+            </div>
 
-        <!-- Mobile naviagtion -->
-         <nav class="d-block d-md-none">
-            <!-- Navigation list -->
-            <ul class="nav justify-content-end">
-                <li class="nav-item d-block d-md-none">
-                    <a class="nav-link" href="{% url 'home' %}">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Product Management</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link icon-box"><i class="fa-solid fa-magnifying-glass"></i></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link icon-box dropdown-toggle" href="#" id="profileDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-regular fa-user"></i>
-                    </a>
-                    <!-- Profile dropdown menu -->
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
-                        <li><a class="dropdown-item" href="#">My Profile</a></li>
-                        <li><a class="dropdown-item" href="#">Logout</a></li>
-                        <li><a class="dropdown-item" href="#">Register</a></li>
-                        <li><a class="dropdown-item" href="#">Login</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link icon-box"><i class="fa-solid fa-bag-shopping"></i></a>
-                </li>
-            </ul>
-        </nav>
+            <!-- Desktop navigation -->
+            <nav class="d-none d-md-block">
+                <!-- Navigation list -->
+                <ul class="nav justify-content-end">
+                    <li class="nav-item d-block d-md-none">
+                        <a class="nav-link" href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product Management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link icon-box"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon-box dropdown-toggle" href="#" id="profileDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                        <!-- Profile dropdown menu -->
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                            <li><a class="dropdown-item" href="#">My Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link icon-box"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Mobile naviagtion -->
+            <nav class="d-block d-md-none">
+
+                 <!-- higher navigation list -->
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link icon-box"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link icon-box dropdown-toggle" href="#" id="profileDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-user"></i>
+                        </a>
+                        <!-- Profile dropdown menu -->
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
+                            <li><a class="dropdown-item" href="#">My Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                            <li><a class="dropdown-item" href="#">Register</a></li>
+                            <li><a class="dropdown-item" href="#">Login</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link icon-box"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </li>
+                </ul>
+
+                <!-- mobile navigation list -->
+                <ul class="mobile-nav">
+                    <li class="nav-item d-block d-md-none ">
+                        <a class="nav-link" href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product Management</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Main content area -->
     <main>
-        <!-- Section for grouping related content -->
-        <section>
-            <!-- Article: specific piece of content -->
-            <article>
-                {% block content %}
-                {% endblock %}
-            </article>
-        </section>
+        <div class="container">
+            <!-- Section for grouping related content -->
+            <section>
+                <!-- Article: specific piece of content -->
+                <article>
+                    {% block content %}
+                    {% endblock %}
+                </article>
+            </section>
+        </div>
+
     </main>
 
     <!-- Footer -->
     <footer>
-        <!-- Footer navigation links -->
-        <div class="footer-links">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Returns</a></li>
-                <li><a href="#">FAQs</a></li>
-            </ul>
-        </div>
+        <div class="container">
+            <!-- Footer navigation links -->
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
 
-        <!-- Social media icons -->
-        <div class="social-links">
-            <ul class="social-media-list">
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-                        <i class="fab fa-tiktok"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/" target="_blank" rel="noopener noreferrer"
-                        aria-label="YouTube">
-                        <i class="fab fa-youtube"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Instagram">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
+            <!-- Social media icons -->
+            <div class="social-links">
+                <ul class="social-media-list">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/" target="_blank" rel="noopener noreferrer"
+                            aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-        <!-- Copyright text -->
-        <div>
-            <p>© {% now "Y" %} {{ company_name }}. All rights reserved.</p>
+            <!-- Copyright text -->
+            <div>
+                <p>© {% now "Y" %} {{ company_name }}. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+    {% block postload_js %}
+        <script src="{% static 'js/base.js' %}"></script>
+    {% endblock %}
 
 </body>
 
