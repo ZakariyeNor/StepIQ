@@ -386,13 +386,6 @@ footer > div:last-child p {
 
 /* Responsive header tweaks */
 @media (max-width: 768px) {
-  
-
-  /* Reduce footer link gaps */
-  footer > div:first-child ul {
-    gap: 1rem;
-    justify-content: center;
-  }
 
   .social-links ul {
     gap: 1.5rem;
@@ -400,15 +393,22 @@ footer > div:last-child p {
   }
 }
 
+@media (max-width: 575px) {
+  footer > div:first-child ul {
+    gap: 3rem; /* medium screens */
+  }
+}
+
+
 @media (min-width: 576px) {
   footer > div:first-child ul {
-    gap: 4rem; /* medium screens */
+    gap: 2rem; /* medium screens */
   }
 }
 
 @media (min-width: 768px) {
   footer > div:first-child ul {
-    gap: 4rem;
+    gap: 6rem;
   }
   .mobile-nav {
     display: none !important;
@@ -417,7 +417,7 @@ footer > div:last-child p {
 
 @media (min-width: 992px) {
   footer > div:first-child ul {
-    gap: 7rem;
+    gap: 7.8rem;
   }
 
 }
