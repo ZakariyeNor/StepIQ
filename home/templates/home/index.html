@@ -2,5 +2,23 @@
 {% load static %}
 
 {% block content %}
-    <h1>Let's satrt</h1>
+<!-- Hero section -->
+<section class="py-5 bg-transparent">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 position-relative text-center">
+                <img src="{{ hero_image }}" alt="nike_air_force_1" class="img-fluid w-100 rounded"
+                    style="height: 500px; object-fit: cover;">
+                <!-- Overlay content -->
+                <div class="position-absolute bottom-0 start-0 p-4 text-start mx-4">
+                    <h1 class="fw-bold text-white mb-1">
+                        Step into Style
+                    </h1>
+                    <p class="text-white fs-5 w-50">Discover the latest trends and timeless classics in footwear. Find your perfect footwear today.</p>
+                    <a href="#" class="btn btn-success btn-lg text-capitalize mt-2">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}

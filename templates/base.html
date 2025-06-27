@@ -156,9 +156,6 @@
 
                 <!-- mobile navigation list -->
                 <ul class="mobile-nav">
-                    <li class="nav-item d-block d-md-none ">
-                        <a class="nav-link" href="{% url 'home' %}">Home</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Shop</a>
                     </li>
@@ -178,17 +175,8 @@
 
     <!-- Main content area -->
     <main>
-        <div class="container">
-            <!-- Section for grouping related content -->
-            <section>
-                <!-- Article: specific piece of content -->
-                <article>
-                    {% block content %}
-                    {% endblock %}
-                </article>
-            </section>
-        </div>
-
+        {% block content %}
+        {% endblock %}
     </main>
 
     <!-- Footer -->
@@ -240,6 +228,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- Custom javascriot file -->
     {% block postload_js %}
         <script src="{% static 'js/base.js' %}"></script>
     {% endblock %}
