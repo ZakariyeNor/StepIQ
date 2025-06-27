@@ -9,6 +9,8 @@ def index(request):
     running = settings.MEDIA_URL + 'running.jpg'
     casual = settings.MEDIA_URL + 'casual.jpg'
     formal = settings.MEDIA_URL + 'formal.jpg'
+    summer_sale = settings.MEDIA_URL + 'summer_sale.jpg'
+
     return render(request, "home/index.html", {
         "company_name": "Lanezra",
         "hero_image": hero_image,
@@ -16,4 +18,5 @@ def index(request):
         "casual": casual,
         "formal": formal,
         "sports": sports,
+        "summer_sale": summer_sale,
     })
